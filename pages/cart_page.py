@@ -17,7 +17,7 @@ class CartPage(BasePage):
         empty_msg_text = WebDriverWait(self.driver, 5).until(EC.presence_of_element_located(loc.empty_message))
         assert empty_msg_text.text == text
 
-    def change_product_quantity(self):
+    def change_product_quantity_and_verify_total_price(self):
         wait = WebDriverWait(self.driver, 5)
 
         one_product_price_text = self.find(loc.product_price).text

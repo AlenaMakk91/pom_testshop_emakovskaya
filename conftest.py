@@ -2,7 +2,7 @@ import pytest
 from selenium import webdriver
 
 from pages.cart_page import CartPage
-from pages.office_designe_software_page import OfficeDesigne
+from pages.multimedia_category_products_page import OfficeDesigne
 from pages.section_desc_page import Section_Desc_Page
 
 

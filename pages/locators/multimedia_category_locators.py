@@ -1,6 +1,7 @@
 from selenium.webdriver.common.by import By
 
 add_to_cart_button = (By.ID, 'add_to_cart')
+result_products = (By.CSS_SELECTOR, '.text-primary.text-decoration-none')
 terms_and_condition_link = (By.LINK_TEXT, 'Terms and Conditions')
 cart_button = (By.XPATH, '//*[@id="o_main_nav"]/ul[2]/li[2]/a/div/i')
 product_title_on_cart_loc = (By.CSS_SELECTOR, '[class="d-inline align-top h6 fw-bold"]')
